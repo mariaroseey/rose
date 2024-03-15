@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Marry Rose Rulida</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <div class="picture">
+        <img src="./picture/mari.jpg" alt="profile pic">
+    </div>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About me:</h2>
+            <p>Hi! I'm Marry Rose Rulida. 19 years old. Currently living in Barangay Duka, Medina Misamis Oriental. 
+            I'm a 2nd-year college student taking up Bachelor of Science in Information Technology.</p>
+
+            <h2>Education and Achievements:</h2>
+            <ul>
+                <li>Medina Central School - (8th Honor) (2015-2016)</li>
+                <li>Medina National Comprehensive High School - (With Honor - Grade 10) (2019-2020)</li>
+                <li>Medina National Comprehensive High School - (With Honor - Grade 12) (2021-2022)</li>
+                <li>Gingoog City Colleges Inc. - (2022 - present)</li>
+            </ul>
+
+            
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project1">
+                    <h3>Project 1</h3>
+                    <img src="./picture/project1.webp" alt="Project 1">
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project2">
+                    <h3>Project 2</h3>
+                    <img src="./picture/project2.webp" alt="Project 2">
+                    <p>Description of Project 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+
+            <h2>Contact Form</h2>
+        <form id="contact-form" method="post" action="send-email.php">
+            <div class="form-group">
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name" name="name" required> <br>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" required> <br>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label> <br>
+                <textarea id="message" name="message" rows="4" required></textarea> <br>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p> rulidamarry@gmail.com </p>
+        </div>
+    </footer>
+</body>
+</html>
